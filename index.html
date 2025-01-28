@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teckzite'25</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="cursor-glow"></div>
+    
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Teckzite'25">
+        </div>
+        <div class="nav-buttons">
+            <a href="#" class="login-btn">Login/Register</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="tec-text">TEC</div>
+        <div id="robot-container">
+            <!-- 3D Robot will be rendered here -->
+        </div>
+        <div class="tz-logo">TZ</div>
+    </div>
+
+    <!-- AI Interface -->
+    <div class="ai-interface">
+        <div class="ai-frame">
+            <div class="ai-header">AI</div>
+            <div class="ai-time"></div>
+            <div class="ai-controls">
+                <div class="control-arrows left">◄◄◄</div>
+                <button class="press-button">PRESS</button>
+                <div class="control-arrows right">►►►</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Background Elements -->
+    <div class="background-grid"></div>
+    <div class="connection-lines"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">Copyright • RGUKT.Nuzvid</div>
+            <div class="time-display"></div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
